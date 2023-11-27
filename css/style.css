@@ -9,7 +9,7 @@ h2{
     color: purple;
     font-weight: bold;
     font-size: 25px;
-    border: 3px solid orange;
+    border: 5px solid orange;
 }
 
 /* Section width 50%, height 200px, gray background, black border whte text */
@@ -17,9 +17,9 @@ section{
     width: 50%;
     height: 200px;
     background-color: gray;
-    border: 3px solid black;  
+    border: 5px solid black;  
 }
-
+ /* white text could have been inherited from the section; best to be specific */
 p{
     color: white;
 }
